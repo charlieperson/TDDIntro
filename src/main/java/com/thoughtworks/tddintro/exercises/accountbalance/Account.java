@@ -7,6 +7,9 @@ public class Account {
         balance = amount;
     }
 
+    public void withdraw(int amount) {
+    }
+
     public int getBalance() {
         return balance;
     }
