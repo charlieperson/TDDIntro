@@ -8,7 +8,11 @@ public class Account {
     }
 
     public void withdraw(int amount) {
-        balance -= amount;
+        if(amount > balance) {
+            System.out.println("Insufficient funds- withdrawal unsuccessful");
+        } else {
+            balance -= amount;
+        }
     }
 
     public int getBalance() {
