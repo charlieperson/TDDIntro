@@ -25,6 +25,7 @@ public class AccountTests {
         account.deposit(100);
         account.withdraw(75);
         assertThat(account.getBalance(), is(25));
+
     }
 
     @Test

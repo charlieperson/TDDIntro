@@ -8,6 +8,7 @@ public class Account {
     }
 
     public void withdraw(int amount) {
+        balance -= amount;
     }
 
     public int getBalance() {
