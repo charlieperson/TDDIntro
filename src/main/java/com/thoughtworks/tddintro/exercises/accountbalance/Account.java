@@ -1,5 +1,7 @@
 package com.thoughtworks.tddintro.exercises.accountbalance;
 
+import java.io.PrintStream;
+
 public class Account {
     int balance = 0;
 
