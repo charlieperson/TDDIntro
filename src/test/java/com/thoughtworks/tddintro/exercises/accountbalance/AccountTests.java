@@ -18,6 +18,8 @@ public class AccountTests {
     public void shouldIncreaseMyBalanceWhenIDepositMoney(){
         account.deposit(100);
         assertThat(account.getBalance(), is(100));
+        account.deposit(10);
+        assertThat(account.getBalance(), is(110));
     }
 
     @Test
